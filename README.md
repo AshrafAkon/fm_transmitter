@@ -23,6 +23,12 @@ You can open WAVE files or read audio data from stdin, i.e.:
 sox star_wars.wav -r 22050 -c 1 -b 16 -t wav - | sudo ./fm_transmitter -f 100.6 -
 ```
 
+### Other files
+You can play a file of any type using play.sh. i.e.:
+```
+./play.sh star_wars.wav 103
+```
+
 ### USB sound-card
 To use a USB sound-card type this:
 ```
